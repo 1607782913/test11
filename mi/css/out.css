@@ -1,0 +1,95 @@
+.w{
+    width: 1226px;
+    margin: 0 auto;
+}
+body{
+    min-width: 1226px;
+}
+.topnav{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(97, 99, 97);
+}
+.topnav ol li{
+    float: left;
+    line-height: 30px;
+    padding: 0 9px;
+    font-size: 5px;
+}
+.interval{
+    width: 1px;
+    height: 10px;
+    background-color: #999;
+    display: inline-block;
+    float: left;
+    margin-top: 10px;
+}
+.topnav ol li a{
+    color: #fff;
+    text-decoration: none;
+}
+/*.dropdownlist{
+    width: 200px;
+    height: 200px;
+    background-color: #bfc;
+    margin-left: -10px;
+    border: 1px solid rgb(97, 99, 97) ;
+    display: none;
+    position: absolute;
+    border-top: none;
+}
+.dropdown:hover{
+    background-color: #bfc;
+    border: 1px solid rgb(97, 99, 97) ;
+}
+.dropdown:hover .dropdownlist{
+    display: block;
+}*/
+.shopnav li{
+    font-size: 18px;
+    line-height: 128px;
+    float: left;
+    padding: 0 10px;
+}
+.mi-logo{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    float: left;
+    background-color: red;
+    margin-top: 40px;
+}
+.clearfix::after ,
+.clearfix::before{
+    content: '';
+    display: table;
+    clear: both;
+}
+.shopnav{
+    height: 128px;
+}
+.middlenav{
+    height: 460px;
+    background-color: #bfc;
+}
+.leftnav{
+    height: 459px;
+    width: 250px;
+    background-color:  rgba(255, 0, 0);
+    border-top: 1px solid red;
+}
+.leftnav ol li{
+    float: left;
+}
+.leftnav ol{
+    height: 44px;
+    line-height: 44px;
+    padding-left: 50px;
+}
+.leftnav ol a{
+    text-decoration: none;
+    color: rgb(255,239,228);
+}
+.leftnav ol:hover{
+    background-color:rgb(255,103,0);
+}
